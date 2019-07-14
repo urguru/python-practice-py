@@ -1,0 +1,16 @@
+import numpy as np
+
+l=range(1,6)
+np_arr=np.array(l)
+print(np_arr)
+print(type(np_arr))
+mat=np.mat('1 2;3 4;5 6')
+print(mat)
+print(type(mat))
+a=np.array([1,'a',3,4])
+print(a)
+a = np.array([1, 2, 3, 4])
+print(a)
+print(np.array([1,2,3],dtype='float'))
+two_arr=np.array([[1,2,3],[4,5,6]])
+print(two_arr.shape)
